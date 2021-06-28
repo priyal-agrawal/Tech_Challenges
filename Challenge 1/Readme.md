@@ -28,6 +28,7 @@ In order to do so we will undergo following steps :
 2: Create 3 subnets in that vnet
  * Each 1 for webtier subnet,  app tier and for db tier 
 
+3: Create 1 VM in each subnet for frontend, backend and database setup
 
 4: Setup 3 nsg(network security group) to restrict the VM access
 
