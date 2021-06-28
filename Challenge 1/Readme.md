@@ -23,11 +23,12 @@ I order to do so we will be doing the following steps :
 1: Create single vnet
 
 2: Create 3 subnets in that vnet
-** Each 1 for webtier subnet,  app tier and for db tier 
-3: Create 1 VM in each of the 3 subnet
+*Each 1 for webtier subnet,  app tier and for db tier 
+
+
 4: Setup 3 nsg(network security group) to restrict the VM access
 
-For the quickstart, we can refer the [Azure Docs] (https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal)
+For the quickstart, we can refer the Azure Docs (https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal)
 This will be the basic setup. Based on the complexity of the project we need to have other considerations too .
 
 ## Other considerations
@@ -40,11 +41,11 @@ This will be the basic setup. Based on the complexity of the project we need to 
 
 
 * Configuring disaster recovery for Azure VMs using Azure Site Recovery will incur the following charges on an ongoing basis.
-** Azure Site Recovery licensing cost per VM.
-** Network egress costs to replicate data changes from the source VM disks to another Azure region. Azure Site Recovery uses built-in compression to reduce the data transfer requirements by approximately 50%.
-** Storage costs on the recovery site. This is typically the same as the source region storage plus any additional storage needed to maintain the recovery points as snapshots for recovery.
+  * Azure Site Recovery licensing cost per VM.
+  * Network egress costs to replicate data changes from the source VM disks to another Azure region. Azure Site Recovery uses built-in compression to reduce the data transfer requirements by approximately 50%.
+  * Storage costs on the recovery site. This is typically the same as the source region storage plus any additional storage needed to maintain the recovery points as snapshots for recovery.
 
-*With the security isolation between subnets in place, you want to ensure that your publicly exposed front end is secure, and only allows access to what is needed. Only your presentation tier should be exposed to inbound internet traffic, and a web application firewall (WAF) technology in front of your presentation tier will enhance the security at this tier. WAFs inspect traffic for malicious activity, ensure communications are encrypted, and alert you if something is out of the ordinary. In Azure, Application Gateway is an HTTP load balancer that has a built-in WAF that you can enable.
+* With the security isolation between subnets in place, you want to ensure that your publicly exposed front end is secure, and only allows access to what is needed. Only your presentation tier should be exposed to inbound internet traffic, and a web application firewall (WAF) technology in front of your presentation tier will enhance the security at this tier. WAFs inspect traffic for malicious activity, ensure communications are encrypted, and alert you if something is out of the ordinary. In Azure, Application Gateway is an HTTP load balancer that has a built-in WAF that you can enable.
 
 
 ## DevOps Consideration 
