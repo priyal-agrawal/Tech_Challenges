@@ -18,9 +18,9 @@ Here's a diagram that shows layers in a common N-tier architecture. Each layer h
 
 In simple term, 3 tier environment means frontend (presentation logic), backend (business logic), database (datastore)
 
-I will be setting up resources of the 3 tier environment in Azure Cloud to showcase my proficiency in it.
+We will be setting up resources of the 3 tier environment in Azure Cloud to showcase my proficiency in it.
 
-I order to do so we will be doing the following steps :
+In order to do so we will undergo following steps :
 
 1: Create single vnet
 
@@ -35,7 +35,7 @@ This will be the basic setup. Based on the complexity of the project we need to 
 
 ## Other considerations
 
-* You can add or remove VMs in each tier based on your scaling requirements. Because this scenario uses load balancers, you can add more VMs to a tier without affecting application uptime.
+* We can add or remove VMs in each tier based on our scaling requirements. Because this scenario uses load balancers, we can add more VMs to a tier without affecting application uptime.
 
 * We can use autoscaling in VM to add or remove VMs in each tier.As using autoscaling it will handle the  changes in load.
 
@@ -47,7 +47,7 @@ This will be the basic setup. Based on the complexity of the project we need to 
   * Network egress costs to replicate data changes from the source VM disks to another Azure region. Azure Site Recovery uses built-in compression to reduce the data transfer requirements by approximately 50%.
   * Storage costs on the recovery site. This is typically the same as the source region storage plus any additional storage needed to maintain the recovery points as snapshots for recovery.
 
-* With the security isolation between subnets in place, you want to ensure that your publicly exposed front end is secure, and only allows access to what is needed. Only your presentation tier should be exposed to inbound internet traffic, and a web application firewall (WAF) technology in front of your presentation tier will enhance the security at this tier. WAFs inspect traffic for malicious activity, ensure communications are encrypted, and alert you if something is out of the ordinary. In Azure, Application Gateway is an HTTP load balancer that has a built-in WAF that you can enable.
+* With the security isolation between subnets in place, we want to ensure that our publicly exposed front end is secure, and only allows access to what is needed. Only our presentation tier should be exposed to inbound internet traffic, and a web application firewall (WAF) technology in front of our presentation tier will enhance the security at this tier. WAFs inspect traffic for malicious activity, ensure communications are encrypted, and alert us if something is out of the ordinary. In Azure, Application Gateway is an HTTP load balancer that has a built-in WAF that we can enable.
 
 
 ## DevOps Consideration 
