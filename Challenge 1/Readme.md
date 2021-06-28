@@ -23,7 +23,7 @@ I order to do so we will be doing the following steps :
 1: Create single vnet
 
 2: Create 3 subnets in that vnet
-*Each 1 for webtier subnet,  app tier and for db tier 
+ * Each 1 for webtier subnet,  app tier and for db tier 
 
 
 4: Setup 3 nsg(network security group) to restrict the VM access
