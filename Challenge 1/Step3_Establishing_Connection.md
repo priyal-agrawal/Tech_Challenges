@@ -6,7 +6,7 @@
 3. In the VM menu bar, select Connect, then select Bastion.
 
 4. In the Connect page, select the blue Use Bastion button.
-
+![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/67d0330d80c389acc76b69da5c077108d92594ce/Challenge%201/images/connect-to-virtual-machine.png)
 5. In the Bastion page, enter the username and password you created for the virtual machine previously.
 
 6. Select Connect
@@ -39,6 +39,7 @@ Open a command prompt on your local computer. Run the mstsc command. Replace <pu
 
 
 # Communicate between VMs
+    
 1. In the bastion connection of myVM1, open PowerShell.
 
 2. Enter ping myvm2.
