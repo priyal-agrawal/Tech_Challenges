@@ -182,3 +182,4 @@ New-AzVM @vm2
 
 
 >> Similarly Create the third VM in third subnet mySubnet2
+[Go to Main Page for next step ](https://github.com/priyal-agrawal/Tech_Challenges/blob/a0c9615138f58ca8dcc5086d8add6e9b17f536c4/Challenge%201/Readme.md)
