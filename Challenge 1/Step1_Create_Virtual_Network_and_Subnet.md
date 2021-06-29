@@ -128,3 +128,5 @@ You can write the subnet configuration to the virtual network with Set-AzVirtual
 $virtualNetwork | Set-AzVirtualNetwork
 ```
 Similarly, create 2 more subnets as mySubnet1 and mySubnet2 as mentioned in above step
+
+[Go to Main Page for next step ](https://github.com/priyal-agrawal/Tech_Challenges/blob/a0c9615138f58ca8dcc5086d8add6e9b17f536c4/Challenge%201/Readme.md)
