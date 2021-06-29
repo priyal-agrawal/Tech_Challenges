@@ -31,7 +31,7 @@ In order to do so we will undergo following steps :
 
 3: [Create 1 VM(Virtual Machines) in each subnet for frontend, backend and database setup](https://github.com/priyal-agrawal/Tech_Challenges/blob/2028005f4a5b92c3ba2ccbafb29059974a988879/Challenge%201/Step2_Create_Virtual_Machine.md)
 
-4: [Establish coneection among VMs](https://github.com/priyal-agrawal/Tech_Challenges/blob/2028005f4a5b92c3ba2ccbafb29059974a988879/Challenge%201/Step3_Establishing_Connection.md)
+4: [Establish connection among VMs](https://github.com/priyal-agrawal/Tech_Challenges/blob/2028005f4a5b92c3ba2ccbafb29059974a988879/Challenge%201/Step3_Establishing_Connection.md)
 
 5: [Setup 3 nsg(network security group) to restrict the VM access](https://github.com/priyal-agrawal/Tech_Challenges/blob/2028005f4a5b92c3ba2ccbafb29059974a988879/Challenge%201/Step4_Setup_Network_Security_Group.md)
 
