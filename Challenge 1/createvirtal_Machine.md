@@ -1,6 +1,17 @@
-#  Create virtual machines : Portal
+# Prerequisite
+We can create Virtual network in Azure cloud using 4 ways:
 
-Create two VMs in the virtual network:
+1: AzurePortal
+
+2: Powershell
+
+3: Azure CLI
+
+4: ARM
+
+In this challenge I will be creating Virtal natwork using Azure portal and Powershell to showcase my proficiency.#  Create virtual machines : Portal
+
+# Create three VMs in the virtual network:
 
 ## Create the first VM
 
@@ -125,7 +136,7 @@ Create two VMs in the virtual network:
 > Similarly, we will create third Virtual Machine in third subnet mySubnet2 .
 
 # Create virtual machines : Powershell
-Create two VMs in the virtual network.
+Create VMs in the virtual network.
 
 ## Create the first VM
 
