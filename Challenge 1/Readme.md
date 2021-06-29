@@ -13,7 +13,7 @@ Three-tier architecture is a well-established software application architecture 
 
 Here's a diagram that shows layers in a common 3-tier architecture.
 
-![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/e616b4871d2a4561f56dddeecc2fc9395d40a022/Challenge%201/images/3tier.png)
+![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/4200d9a3fa0711549b84d6587a2f9c21683255be/Challenge%201/images/3tier.jpeg)
 
 ## What do we need
 
@@ -23,14 +23,15 @@ We will be setting up resources of the 3 tier environment in Azure Cloud to show
 
 In order to do so we will undergo following steps :
 
-1: Create single vnet(Virtual Network)
+1:[ Create single vnet(Virtual Network)](https://github.com/priyal-agrawal/Tech_Challenges/blob/2028005f4a5b92c3ba2ccbafb29059974a988879/Challenge%201/Step1_Create_Virtual_Network_and_Subnet.md)
 
-2: Create 3 subnets in that vnet
+2:[ Create 3 subnets in that vnet](https://github.com/priyal-agrawal/Tech_Challenges/blob/2028005f4a5b92c3ba2ccbafb29059974a988879/Challenge%201/Step1_Create_Virtual_Network_and_Subnet.md)
  * Each 1 for webtier subnet,  app tier and for db tier 
 
-3: Create 1 VM(Virtual Machines) in each subnet for frontend, backend and database setup
 
-4: Setup 3 nsg(network security group) to restrict the VM access
+3: [Create 1 VM(Virtual Machines) in each subnet for frontend, backend and database setup](https://github.com/priyal-agrawal/Tech_Challenges/blob/2028005f4a5b92c3ba2ccbafb29059974a988879/Challenge%201/Step2_Create_Virtual_Machine.md)
+4: [Establish coneection among VMs](https://github.com/priyal-agrawal/Tech_Challenges/blob/2028005f4a5b92c3ba2ccbafb29059974a988879/Challenge%201/Step3_Establishing_Connection.md)
+5: [Setup 3 nsg(network security group) to restrict the VM access](https://github.com/priyal-agrawal/Tech_Challenges/blob/2028005f4a5b92c3ba2ccbafb29059974a988879/Challenge%201/Step4_Setup_Network_Security_Group.md)
 
 For the quickstart, we can refer the Azure Docs (https://docs.microsoft.com/)
 This will be the basic setup. Based on the complexity of the project we need to have other considerations too .
