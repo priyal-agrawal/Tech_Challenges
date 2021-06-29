@@ -13,7 +13,7 @@ Three-tier architecture is a well-established software application architecture 
 
 Here's a diagram that shows layers in a common 3-tier architecture. Each layer handles one aspect of the application. The business layer manages communication between the user interface layer and the data access layer.
 
-![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/b96c85c00fdfe871a9b67a28b66a2a9ed4564922/Challenge%201/layers.svg)
+![picture alt]()
 
 ## What do we need
 
@@ -32,7 +32,7 @@ In order to do so we will undergo following steps :
 
 4: Setup 3 nsg(network security group) to restrict the VM access
 
-For the quickstart, we can refer the Azure Docs (https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal)
+For the quickstart, we can refer the Azure Docs (https://docs.microsoft.com/)
 This will be the basic setup. Based on the complexity of the project we need to have other considerations too .
 
 ## Other considerations
