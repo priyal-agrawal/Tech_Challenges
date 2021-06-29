@@ -1,6 +1,6 @@
 # Filter network traffic with a network security group using the Azure portal
 
-You can use a network security group to filter network traffic inbound and outbound from a virtual network subnet. In 3 tier environment will use NSG on each subnet to secure the frontend,backend and database VMs as per required rules.
+You can use a network security group to filter network traffic inbound and outbound from a virtual network subnet. 3 tier environment will use NSG on each subnet to secure the frontend, backend, and database VMs as per required rules.
 
 Network security groups contain security rules that filter network traffic by IP address, port, and protocol. Security rules are applied to resources deployed in a subnet.
 
@@ -14,11 +14,11 @@ Sign in to the Azure portal at https://portal.azure.com
 
 ## Create application security groups
 
-An application security group enables you to group together servers with similar functions, such as web servers.
+An application security group enables you to group servers with similar functions, such as web servers.
 
 1. Select Create a resource in the upper left-hand corner of the portal.
 
-2. In the search box, enter Application security group. Select Application security group in the search results.
+2. In the search box, enter the Application security group. Select Application security group in the search results.
 
 3. In the Application security group page, select Create.
 
@@ -68,7 +68,7 @@ A network security group secures network traffic in your virtual network.
 
 1. Select Create a resource in the upper left-hand corner of the portal.
 
-2. In the search box, enter Network security group. Select Network security group in the search results.
+2. In the search box, enter the Network security group. Select Network security group in the search results.
 
 3. In the Network security group page, select Create.
 
@@ -227,12 +227,12 @@ Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
 11. To confirm that you can access the myVMWeb web server from the internet, open an internet browser on your computer and browse to http://<public-ip-address-from-previous-step>.
 
-You see the IIS welcome screen, because port 80 is allowed inbound from the internet to the myAsgWebServers application security group.
+You see the IIS welcome screen because port 80 is allowed inbound from the internet to the myAsgWebServers application security group.
 
 The network interface attached for myVMWeb is associated with the myAsgWebServers application security group and allows the connection.
 
-> Similarly,Associate the above security settings for two subnets and VMs.
+> Similarly, Associate the above security settings for two subnets and VMs.
   
-> We can also route the network traffic by creating route tableand associate it to VMs.
+> We can also route the network traffic by creating a route table and associate it to VMs.
   
 [Go to Main Page for next step ](https://github.com/priyal-agrawal/Tech_Challenges/blob/a0c9615138f58ca8dcc5086d8add6e9b17f536c4/Challenge%201/Readme.md)
