@@ -43,6 +43,7 @@ Sign in to the Azure portal.
 
 
 Thus, Create virtual network Azure portal
+![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/eeef688a81b12a9ab0dfcd3620f0774f14d859a2/Challenge%201/images/create-virtual-network.png)
 
 5: Select the IP Addresses tab, or select the Next: IP Addresses button at the bottom of the page.
 
