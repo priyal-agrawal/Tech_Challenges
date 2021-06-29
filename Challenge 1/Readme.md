@@ -11,9 +11,9 @@ Three-tier architecture is a well-established software application architecture 
 * the application tier, where data is processed;
 * and the data tier, where the data associated with the application is stored and managed.
 
-Here's a diagram that shows layers in a common 3-tier architecture. Each layer handles one aspect of the application. The business layer manages communication between the user interface layer and the data access layer.
+Here's a diagram that shows layers in a common 3-tier architecture.
 
-![picture alt]()
+![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/e616b4871d2a4561f56dddeecc2fc9395d40a022/Challenge%201/images/3tier.png)
 
 ## What do we need
 
