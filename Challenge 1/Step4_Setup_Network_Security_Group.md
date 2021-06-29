@@ -117,33 +117,55 @@ In this section, we'll associate the network security group with the subnet of t
 3. Create a security rule that allows ports 80 and 443 to the myAsgWebServers application security group. In Add inbound security rule, enter or select the following information:
 
 Source -->	Leave the default of Any.
+
 Source port ranges -->	Leave the default of (*)
+
 Destination	--> Select Application security group.
+
 Destination application security group -->	Select myAsgWebServers.
+
 Service -->	Leave the default of Custom.
+
 Destination port ranges	--> Enter 80,443.
+
 Protocol	--> Select TCP.
+
 Action	--> Leave the default of Allow.
+
 Priority	--> Leave the default of 100.
+
 Name	--> Enter Allow-Web-All.
+
 
 ![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/3e15941288df5c5e00e1790f9283a64938c80365/Challenge%201/images/inbound-security-rule.png)
 4. Complete step 2 again, using the following values:
 
 
 Source	--> Leave the default of Any.
+
 Source port ranges	--> Leave the default of (*)
+
 Destination -->	Select Application security group.
+
 Destination application security group	--> Select myAsgMgmtServers.
+
 Service -->	Leave the default of Custom.
+
 Destination port ranges -->	Enter 3389.
+
 Protocol -->	Select TCP.
+
 Action	--> Leave the default of Allow.
+
 Priority	--> Leave the default of 110.
+
 Name	--> Enter Allow-RDP-All.
 
+
 Once you've completed steps 1-3, review the rules you created. Your list should look like the list in the following example:
+
 ![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/3e15941288df5c5e00e1790f9283a64938c80365/Challenge%201/images/inbound-security-rule.png)
+
 # Associate network interfaces to an ASG
 When the portal created the VMs, it created a network interface for each VM, and attached the network interface to the VM.
 
@@ -154,10 +176,12 @@ Add the network interface for each VM to one of the application security groups 
 2. In Settings, select Networking.
 
 3. Select the Application security groups tab, then select Configure the application security groups.
+
 ![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/3e15941288df5c5e00e1790f9283a64938c80365/Challenge%201/images/configure-app-sec-groups.png)
 
 
 4. In Configure the application security groups, select myAsgWebServers. Select Save.
+
 ![picture alt](https://github.com/priyal-agrawal/Tech_Challenges/blob/3e15941288df5c5e00e1790f9283a64938c80365/Challenge%201/images/select-asgs.png)
 
 5. Select application security groups.
