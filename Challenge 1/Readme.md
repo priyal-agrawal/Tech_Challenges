@@ -23,12 +23,12 @@ We will be setting up resources of the 3 tier environment in Azure Cloud to show
 
 In order to do so we will undergo following steps :
 
-1: Create single vnet
+1: Create single vnet(Virtual Network)
 
 2: Create 3 subnets in that vnet
  * Each 1 for webtier subnet,  app tier and for db tier 
 
-3: Create 1 VM in each subnet for frontend, backend and database setup
+3: Create 1 VM(Virtual Machines) in each subnet for frontend, backend and database setup
 
 4: Setup 3 nsg(network security group) to restrict the VM access
 
