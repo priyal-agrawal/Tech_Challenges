@@ -1,8 +1,12 @@
 # Prerequisite
 We can create Virtual network in Azure cloud using 4 ways:
+
 1: AzurePortal
+
 2: Powershell
+
 3: Azure CLI
+
 4: ARM
 
 In this challenge I will be creating Virtal natwork using Azure portal and Powershell to showcase my proficiency.
