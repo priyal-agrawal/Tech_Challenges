@@ -1,5 +1,5 @@
 # Prerequisite
-We can create Virtual network in Azure cloud using 4 ways:
+We can create a Virtual Network in Azure cloud using 4 ways:
 
 1: AzurePortal
 
@@ -9,9 +9,9 @@ We can create Virtual network in Azure cloud using 4 ways:
 
 4: ARM
 
-In this challenge I will be creating Virtal natwork using Azure portal and Powershell to showcase my proficiency.
+In this challenge, I will be creating a Virtual network using Azure portal and Powershell to showcase my proficiency.
 
-## Creating Virtal Network and subnet : Portal
+## Creating Virtual Network and subnet: Portal
 ### Prerequisites
 An Azure account with an active subscription.
 ### Sign in to Azure
@@ -47,9 +47,9 @@ Thus, Create virtual network Azure portal
 
 5: Select the IP Addresses tab, or select the Next: IP Addresses button at the bottom of the page.
 
-6: In IPv4 address space, select the existing address space and change it to 10.1.0.0/16.
+6: In the IPv4 address space, select the existing address space and change it to 10.1.0.0/16.
 
-7: Select + Add subnet, then enter MySubnet for Subnet name and 10.1.0.0/24 for Subnet address range.
+7: Select + Add subnet, then enter MySubnet for Subnet name and 10.1.0.0/24 for the Subnet address range.
 
 8: Select Add.
 
@@ -68,20 +68,20 @@ Thus, Create virtual network Azure portal
 
 Select OK.
 
-Select the Review + create tab or select the Review + create button.
+Select the Review + to create a tab or select the Review + create button.
 
-11 : Select Create
+11: Select Create
 
-Similarly, create 2 more subnets as mySubnet1 and mySubnet2 by +Add Subnet as in mentioned in step 7.
+Similarly, create 2 more subnets as mySubnet1 and mySubnet2 by +Add Subnet as mentioned in step 7.
 
-## Creating Virtal Network and subnet : Powershell
+## Creating Virtual Network and subnet: Powershell
 ### Prerequisite
 An Azure account with an active subscription. Create an account for free.
 Azure PowerShell installed locally or Azure Cloud Shell
-If you choose to install and use PowerShell locally, this article requires the Azure PowerShell module version 5.4.1 or later. Run Get-Module -ListAvailable Az to find the installed version. If you need to upgrade, see Install Azure PowerShell module. If you're running PowerShell locally, you also need to run Connect-AzAccount to create a connection with Azure.
+If you choose to install and use PowerShell locally, this article requires the Azure PowerShell module version 5.4.1 or later. Run Get-Module -ListAvailable Az to find the installed version. If you need to upgrade, see the Install Azure PowerShell module. If you're running PowerShell locally, you also need to run Connect-AzAccount to create a connection with Azure.
 
 ### Create the resource group
-Before you can create a virtual network, you have to create a resource group to host the virtual network. Create a resource group with New-AzResourceGroup. This example creates a resource group named CreateVNetQS-rg in the Eastus location:
+Before you can create a virtual network, you have to create a resource group to host the virtual network. Create a resource group with New-AzResourceGroup. This example creates a resource group named CreateVNetQS-rg in the East US location:
 
 ```
 $rg = @{
