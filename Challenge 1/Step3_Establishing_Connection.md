@@ -81,3 +81,5 @@ Approximate round trip times in milli-seconds:
     
 ```
 6. Close the bastion connection to myVM2.
+
+    >Similarly, test connection among all VMs
