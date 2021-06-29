@@ -1,5 +1,5 @@
 import unittest
-import find_value as fv
+from find_value import find_value as fv
 
 class TestFv(unittest.TestCase):
 
