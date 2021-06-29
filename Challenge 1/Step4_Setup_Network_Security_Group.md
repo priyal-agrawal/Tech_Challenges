@@ -235,3 +235,4 @@ The network interface attached for myVMWeb is associated with the myAsgWebServer
   
 > We can also route the network traffic by creating route tableand associate it to VMs.
   
+[Go to Main Page for next step ](https://github.com/priyal-agrawal/Tech_Challenges/blob/a0c9615138f58ca8dcc5086d8add6e9b17f536c4/Challenge%201/Readme.md)
