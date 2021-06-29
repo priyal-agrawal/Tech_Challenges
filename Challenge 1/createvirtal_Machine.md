@@ -181,4 +181,4 @@ New-AzVM @vm2
   > For more information on outbound connections in Azure, see Using Source Network Address Translation (SNAT) for outbound connections. 
 
 
-
+>> Similarly Create the third VM in third subnet mySubnet2
